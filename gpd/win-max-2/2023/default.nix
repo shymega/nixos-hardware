@@ -3,6 +3,7 @@ with lib;
 {
   imports = [
     ./..
+    ../../../common/gpu/24.05-compat.nix
     ../../../common/cpu/amd
     ../../../common/cpu/amd/pstate.nix
     ../../../common/gpu/amd
