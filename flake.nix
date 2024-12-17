@@ -115,6 +115,7 @@
         focus-m2-gen1 = import ./focus/m2/gen1;
         gigabyte-b550 = import ./gigabyte/b550;
         google-pixelbook = import ./google/pixelbook;
+        gpd-duo = import ./gpd/duo;
         gpd-micropc = import ./gpd/micropc;
         gpd-p2-max = import ./gpd/p2-max;
         gpd-pocket-3 = import ./gpd/pocket-3;
