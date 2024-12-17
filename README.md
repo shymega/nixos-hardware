@@ -203,6 +203,7 @@ See code for all available configurations.
 | [Framework 12th Gen Intel Core](framework/13-inch/12th-gen-intel)                 | `<nixos-hardware/framework/13-inch/12th-gen-intel>`     | `framework-12th-gen-intel`             |
 | [Framework 13th Gen Intel Core](framework/13-inch/13th-gen-intel)                 | `<nixos-hardware/framework/13-inch/13th-gen-intel>`     | `framework-13th-gen-intel`             |
 | [Framework Intel Core Ultra Series 1](framework/13-inch/intel-core-ultra-series1) | `<nixos-hardware/framework/13-inch/intel-core-ultra-series1>`     | `framework-intel-core-ultra-series1` |
+<<<<<<< HEAD
 | [Framework 13 AMD Ryzen 7040 Series](framework/13-inch/7040-amd)                  | `<nixos-hardware/framework/13-inch/7040-amd>`           | `framework-13-7040-amd`                |
 | [Framework 13 AMD AI 300 Series](framework/13-inch/amd-ai-300-series)             | `<nixos-hardware/framework/13-inch/amd-ai-300-series>`  | `framework-amd-ai-300-series`          |
 | [Framework 12 13th Gen Intel Core](framework/12-inch/13th-gen-intel)              | `<nixos-hardware/framework/12-inch/13th-gen-intel>`     | `framework-12-13th-gen-intel`          |
@@ -269,6 +270,70 @@ See code for all available configurations.
 | [Lenovo Legion Slim 5](lenovo/legion/16aph8/)                                     | `<nixos-hardware/lenovo/legion/16aph8>`                 | `lenovo-legion-16aph8`                 |
 | [Lenovo Legion Slim 7 Gen 7 (AMD)](lenovo/legion/16arha7/)                        | `<nixos-hardware/lenovo/legion/16arha7>`                | `lenovo-legion-16arha7`                |
 | [Lenovo Legion T5 AMR5](lenovo/legion/t526amr5)                                   | `<nixos-hardware/lenovo/legion/t526amr5>`               | `lenovo-legion-t526amr5`               |
+=======
+| [Framework 13 AMD Ryzen 7040 Series](framework/13-inch/7040-amd)                  | `<nixos-hardware/framework/13-inch/7040-amd>`           | `framework-13-7040-amd`      |
+| [Framework 13 AMD AI 300 Series](framework/13-inch/amd-ai-300-series)             | `<nixos-hardware/framework/13-inch/amd-ai-300-series>`  | `framework-amd-ai-300-series` |
+| [Framework 12 13th Gen Intel Core](framework/12-inch/13th-gen-intel)              | `<nixos-hardware/framework/12-inch/13th-gen-intel>`     | `framework-12-13th-gen-intel` |
+| [Framework 16 AMD Ryzen 7040 Series](framework/16-inch/7040-amd)                  | `<nixos-hardware/framework/16-inch/7040-amd>`           | `framework-16-7040-amd`      |
+| [Framework 16 AMD Ryzen AI 300 Series](framework/16-inch/amd-ai-300-series)       | `<nixos-hardware/framework/16-inch/amd-ai-300-series>`  | `framework-16-amd-ai-300-series`  |
+| [FriendlyARM NanoPC-T4](friendlyarm/nanopc-t4)                                    | `<nixos-hardware/friendlyarm/nanopc-t4>`                | `friendlyarm-nanopc-t4`           |
+| [FriendlyARM NanoPi R5s](friendlyarm/nanopi-r5s)                                  | `<nixos-hardware/friendlyarm/nanopi-r5s>`               | `friendlyarm-nanopi-r5s`          |
+| [Focus M2 Gen 1](focus/m2/gen1)                                                   | `<nixos-hardware/focus/m2/gen1>`                        | `focus-m2-gen1`                   |
+| [Fydetab Duo](fydetab/duo)                                                        | `<nixos-hardware/fydetab/duo>`                          | `fydetab-duo`                     |
+| [Gigabyte B550](gigabyte/b550)                                                    | `<nixos-hardware/gigabyte/b550>`                        | `gigabyte-b550`                   |
+| [Gigabyte B650](gigabyte/b650)                                                    | `<nixos-hardware/gigabyte/b650>`                        | `gigabyte-b650`                   |
+| [GMKtec NucBox G3 Plus](gmktec/nucbox/g3-plus)                                    | `<nixos-hardware/gmktec/nucbox/g3-plus>`                | `gmktec-nucbox-g3-plus`           |
+| [GPD Duo](gpd/duo)                                                                | `<nixos-hardware/gpd/duo>`                              | `gpd-duo`                         |
+| [GPD MicroPC](gpd/micropc)                                                        | `<nixos-hardware/gpd/micropc>`                          | `gpd-micropc`                     |
+| [GPD P2 Max](gpd/p2-max)                                                          | `<nixos-hardware/gpd/p2-max>`                           | `gpd-p2-max`                      |
+| [GPD Pocket 3](gpd/pocket-3)                                                      | `<nixos-hardware/gpd/pocket-3>`                         | `gpd-pocket-3`                    |
+| [GPD Pocket 4](gpd/pocket-4)                                                      | `<nixos-hardware/gpd/pocket-4>`                         | `gpd-pocket-4`                    |
+| [GPD WIN 2](gpd/win-2)                                                            | `<nixos-hardware/gpd/win-2>`                            | `gpd-win-2`                       |
+| [GPD WIN Max 2 2023](gpd/win-max-2/2023)                                          | `<nixos-hardware/gpd/win-max-2/2023>`                   | `gpd-win-max-2-2023`              |
+| [GPD WIN Mini 2024](gpd/win-mini/2024)                                            | `<nixos-hardware/gpd/win-mini/2024>`                    | `gpd-win-mini-2024`               |
+| [Google Pixelbook](google/pixelbook)                                              | `<nixos-hardware/google/pixelbook>`                     | `google-pixelbook`                |
+| [HP Elitebook 2560p](hp/elitebook/2560p)                                          | `<nixos-hardware/hp/elitebook/2560p>`                   | `hp-elitebook-2560p`              |
+| [HP Elitebook 830g6](hp/elitebook/830/g6)                                         | `<nixos-hardware/hp/elitebook/830/g6>`                  | `hp-elitebook-830g6`             |
+| [HP Elitebook 845g7](hp/elitebook/845/g7)                                         | `<nixos-hardware/hp/elitebook/845/g7>`                  | `hp-elitebook-845g7`             |
+| [HP Elitebook 845g8](hp/elitebook/845/g8)                                         | `<nixos-hardware/hp/elitebook/845/g8>`                  | `hp-elitebook-845g8`             |
+| [HP Elitebook 845g9](hp/elitebook/845/g9)                                         | `<nixos-hardware/hp/elitebook/845/g9>`                  | `hp-elitebook-845g9`             |
+| [HP Laptop 14s-dq2024nf](hp/laptop/14s-dq2024nf)                                  | `<nixos-hardware/hp/laptop/14s-dq2024nf>`               | `hp-laptop-14s-dq2024nf`          |
+| [HP Notebook 14-df0023](hp/notebook/14-df0023)                                    | `<nixos-hardware/hp/notebook/14-df0023>`                | `hp-notebook-14-df0023`           |
+| [HP Probook 440G5](hp/probook/440g5)                                              | `<nixos-hardware/hp/probook/440g5>`                     | `hp-probook-440G5`                |
+| [HP Probook 460G11](hp/probook/460g11)                                              | `<nixos-hardware/hp/probook/460g11>`                     | `hp-probook-46011`                |
+| [Huawei Matebook X Pro (2020)](huawei/machc-wa)                                   | `<nixos-hardware/huawei/machc-wa>`                      | `huawei-machc-wa`                 |
+| [i.MX8QuadMax Multisensory Enablement Kit](nxp/imx8qm-mek/)                       | `<nixos-hardware/nxp/imx8qm-mek>`                       | `nxp-imx8qm-mek`                  |
+| [Intel NUC 5i5RYB](intel/nuc/5i5ryb/)                                             | `<nixos-hardware/intel/nuc/5i5ryb>`                     | `intel-nuc-5i5ryb`                |
+| [Intel NUC 8i7BEH](intel/nuc/8i7beh/)                                             | `<nixos-hardware/intel/nuc/8i7beh>`                     | `intel-nuc-8i7beh`                |
+| [Lenovo IdeaCentre K330](lenovo/ideacentre/k330)                                  | `<nixos-hardware/lenovo/ideacentre/k330>`               | `lenovo-ideacentre-k330`          |
+| [Lenovo IdeaPad 3 15alc6](lenovo/ideapad/15alc6)                                  | `<nixos-hardware/lenovo/ideapad/15alc6>`                | `lenovo-ideapad-15alc6`           |
+| [Lenovo IdeaPad Gaming 3 15arh05](lenovo/ideapad/15arh05)                         | `<nixos-hardware/lenovo/ideapad/15arh05>`               | `lenovo-ideapad-15arh05`          |
+| [Lenovo IdeaPad Gaming 3 15ach6](lenovo/ideapad/15ach6)                           | `<nixos-hardware/lenovo/ideapad/15ach6>`                | `lenovo-ideapad-15ach6`           |
+| [Lenovo IdeaPad 5 Pro 14imh9](lenovo/ideapad/14imh9)                              | `<nixos-hardware/lenovo/ideapad/14imh9>`                | `lenovo-ideapad-14imh9`           |
+| [Lenovo IdeaPad 5 Pro 16ach6](lenovo/ideapad/16ach6)                              | `<nixos-hardware/lenovo/ideapad/16ach6>`                | `lenovo-ideapad-16ach6`           |
+| [Lenovo IdeaPad Z510](lenovo/ideapad/z510)                                        | `<nixos-hardware/lenovo/ideapad/z510>`                  | `lenovo-ideapad-z510`             |
+| [Lenovo IdeaPad Slim 5](lenovo/ideapad/slim-5)                                    | `<nixos-hardware/lenovo/ideapad/slim-5>`                | `lenovo-ideapad-slim-5`           |
+| [Lenovo IdeaPad Slim 5 16iah8](lenovo/ideapad/16iah8)                             | `<nixos-hardware/lenovo/ideapad/16iah8`                 | `lenovo-ideapad-s5-16iah8`           |
+| [Lenovo IdeaPad 2-in-1 16ahp9](lenovo/ideapad/16ahp9)                             | `<nixos-hardware/lenovo/ideapad/16ahp9>`                | `lenovo-ideapad-16ahp9`           |
+| [Lenovo IdeaPad S145 15api](lenovo/ideapad/s145-15api)                            | `<nixos-hardware/lenovo/ideapad/s145-15api>`            | `lenovo-ideapad-s145-15api`       |
+| [Lenovo Legion 5 15ach6h](lenovo/legion/15ach6h)                                  | `<nixos-hardware/lenovo/legion/15ach6h>`                | `lenovo-legion-15ach6h`           |
+| [Lenovo Legion 5 15ach6h (Hybrid)](lenovo/legion/15ach6h/hybrid)                  | `<nixos-hardware/lenovo/legion/15ach6h/hybrid>`         | `lenovo-legion-15ach6h-hybrid`    |
+| [Lenovo Legion 5 15ach6h (Nvidia)](lenovo/legion/15ach6h/hybrid)                  | `<nixos-hardware/lenovo/legion/15ach6h/nvidia>`         | `lenovo-legion-15ach6h-nvidia`    |
+| [Lenovo Legion 5 15arh05h](lenovo/legion/15arh05h)                                | `<nixos-hardware/lenovo/legion/15arh05h>`               | `lenovo-legion-15arh05h`          |
+| [Lenovo Legion 7 Slim 15ach6](lenovo/legion/15ach6)                               | `<nixos-hardware/lenovo/legion/15ach6>`                 | `lenovo-legion-15ach6`            |
+| [Lenovo Legion 5 Pro 16ach6h](lenovo/legion/16ach6h)                              | `<nixos-hardware/lenovo/legion/16ach6h>`                | `lenovo-legion-16ach6h`           |
+| [Lenovo Legion 5 Pro 16ach6h (Hybrid)](lenovo/legion/16ach6h/hybrid)              | `<nixos-hardware/lenovo/legion/16ach6h/hybrid>`         | `lenovo-legion-16ach6h-hybrid`    |
+| [Lenovo Legion 5 Pro 16ach6h (Nvidia)](lenovo/legion/16ach6h/nvidia)              | `<nixos-hardware/lenovo/legion/16ach6h/nvidia>`         | `lenovo-legion-16ach6h-nvidia`    |
+| [Lenovo Legion 5 Pro 16arh7h (IGPU Only)](lenovo/legion/16arh7h/igpu-only)        | `<nixos-hardware/lenovo/legion/16arh7h/igpu-only>`      | `lenovo-legion-16arh7h-igpu-only` |
+| [Lenovo Legion 5 Pro 16arh7h (Hybrid)](lenovo/legion/16arh7h/hybrid)              | `<nixos-hardware/lenovo/legion/16arh7h/hybrid>`         | `lenovo-legion-16arh7h-hybrid`    |
+| [Lenovo Legion 5 Pro 16IAH7H (Intel)](lenovo/legion/16iah7h/)                     | `<nixos-hardware/lenovo/legion/16iah7h>`                | `lenovo-legion-16iah7h`           |
+| [Lenovo Legion 7 16achg6 (Hybrid)](lenovo/legion/16achg6/hybrid)                  | `<nixos-hardware/lenovo/legion/16achg6/hybrid>`         | `lenovo-legion-16achg6-hybrid`    |
+| [Lenovo Legion 7 16achg6 (Nvidia)](lenovo/legion/16achg6/nvidia)                  | `<nixos-hardware/lenovo/legion/16achg6/nvidia>`         | `lenovo-legion-16achg6-nvidia`    |
+| [Lenovo Legion 7i Pro 16irx8h (Intel)](lenovo/legion/16irx8h)                     | `<nixos-hardware/lenovo/legion/16irx8h>`                | `lenovo-legion-16irx8h`           |
+| [Lenovo Legion 7 Pro 16irx9h (Intel)](lenovo/legion/16irx9h)                      | `<nixos-hardware/lenovo/legion/16irx9h>`                | `lenovo-legion-16irx9h`           |
+| [Lenovo Legion Slim 7 Gen 7 (AMD)](lenovo/legion/16arha7/)                        | `<nixos-hardware/lenovo/legion/16arha7>`                | `lenovo-legion-16arha7`           |
+| [Lenovo Legion T5 AMR5](lenovo/legion/t526amr5)                                   | `<nixos-hardware/lenovo/legion/t526amr5>`               | `lenovo-legion-t526amr5`          |
+>>>>>>> 48a0d18 (gpd/duo: init GPD Duo profile)
 | [Lenovo Legion Y530 15ICH](lenovo/legion/15ich)                                   | `<nixos-hardware/lenovo/legion/15ich>`                  | `lenovo-legion-y530-15ich`             |
 | [Lenovo ThinkPad A475](lenovo/thinkpad/a475)                                      | `<nixos-hardware/lenovo/thinkpad/a475>`                 | `lenovo-thinkpad-a475`                 |
 | [Lenovo ThinkPad E14 (AMD)](lenovo/thinkpad/e14/amd)                              | `<nixos-hardware/lenovo/thinkpad/e14/amd>`              | `lenovo-thinkpad-e14-amd`              |
