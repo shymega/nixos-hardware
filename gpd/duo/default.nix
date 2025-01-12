@@ -41,7 +41,7 @@ with lib; {
 
     # Set the eDP-1 panel video parameters for display rotation
     boot.kernelParams = mkBefore [
-      "video=eDP-1:2880x1800,panel_orientation=upside_down"
+      "video=eDP-1:2880x1800"
       "video=DP-3:2880x1800"
     ];
 
