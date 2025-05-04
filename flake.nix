@@ -133,6 +133,7 @@
         gmktec-nucbox-g3-plus = import ./gmktec/nucbox/g3-plus;
         google-pixelbook = import ./google/pixelbook;
         gpd-duo = import ./gpd/duo;
+        gpd-common-focaltech = import ./gpd/common/libfprint-focaltech;
         gpd-micropc = import ./gpd/micropc;
         gpd-p2-max = import ./gpd/p2-max;
         gpd-pocket-3 = import ./gpd/pocket-3;
