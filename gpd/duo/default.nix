@@ -9,6 +9,7 @@ with lib; {
     ../../common/pc/laptop
     ../../common/pc/ssd
     ../../common/hidpi.nix
+    ../common/libfprint-focaltech
   ];
 
   options = {
